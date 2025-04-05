@@ -1,0 +1,57 @@
+name: ventables
+description: Plataforma de comercio electrónico desarrollada con Flutter y PostgreSQL.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  
+  # Arquitectura y gestión de estado
+  flutter_bloc: ^8.1.2
+  equatable: ^2.0.5
+  get_it: ^7.6.0
+  dartz: ^0.10.1
+  
+  # Almacenamiento local
+  shared_preferences: ^2.1.1
+  
+  # Red
+  http: ^0.13.6
+  internet_connection_checker: ^1.0.0+1
+  
+  # UI
+  cupertino_icons: ^1.0.5
+  carousel_slider: ^4.2.1
+  shimmer: ^3.0.0
+  cached_network_image: ^3.2.3
+  flutter_svg: ^2.0.5
+  lottie: ^2.3.2
+  
+  # Realidad aumentada
+  ar_flutter_plugin: ^0.7.3
+  vector_math: ^2.1.4
+  
+  # Otros
+  intl: ^0.18.0
+  uuid: ^3.0.7
+  path_provider: ^2.0.15
+  image_picker: ^0.8.7+5
+  url_launcher: ^6.1.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+  mockito: ^5.4.0
+  build_runner: ^2.3.3
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
